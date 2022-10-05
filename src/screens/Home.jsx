@@ -1,5 +1,6 @@
 import React from "react";
 
+// Pass User
 const Home = ({ user }) => {
   const logout = () => {
     localStorage.removeItem("user");
